@@ -15,12 +15,11 @@
 * selenium-webdriver
 * shotgun
 
-### Clone and run project
+### Clone the project
 ```
 $ git clone https://github.com/adrianeyre/battle
 $ cd battle
 $ bundle
-$ rspec
 ```
 
 ### Change day branch
