@@ -1,7 +1,7 @@
 # Battle
 ### [Makers Academy] (http://www.makersacademy.com) - Week 3 Pair Programming Project
 
-[Project Setup] (#Setup) | [User Story](#Story) | [Files Used] (#Files)
+[Project Setup] (#Setup) | [Running Battle] (#Run) | [User Story](#Story)
 
 ## <a name="Outline">Outline</a>
 
@@ -44,6 +44,18 @@ $ rvm install ruby-2.3.1
 ```shell
 $ gem install bundle
 $ bundle
+```
+## <a name="Run">Running Battle</a>
+Battle is ran on the Sinatra framework
+
+### Test in browser
+Terminal
+```shell
+$ ruby app.rb -p 4567
+```
+Browser
+```
+http://localhost:4567/
 ```
 
 ## <a name="Story">User Story</a>
