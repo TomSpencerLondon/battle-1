@@ -4,10 +4,7 @@
 
 feature "View player 2's hit points" do
   scenario "displays hit points" do
-    visit('/')
-    fill_in :player1_name, with: 'Dave'
-    fill_in :player2_name, with: 'Mittens'
-    click_button 'Submit'
+    sign_in_and_play
     expect(page).to have_content 'Mittens has 0 hit points'
   end
 end
