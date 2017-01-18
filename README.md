@@ -29,6 +29,23 @@ $ git checkout <branch>
 ```
 where `<branch>` is either day-two, day-three, day-four or day-five
 
+### Ruby version
+Battle is ran on Ruby version : 2.3.1
+
+* To change Ruby versions
+```shell
+$ rvm 2.3.1
+```
+* To install Ruby 2.3.1
+```shell
+$ rvm install ruby-2.3.1
+```
+* To install Gems
+```shell
+$ gem install bundle
+$ bundle
+```
+
 ## <a name="Story">User Story</a>
 ```
 As two Players,
