@@ -31,6 +31,8 @@ describe Game do
 
 	describe '#confirm' do
 		it 'it displays a message to the players' do
+			allow(player1).to receive(:points).and_return(100)
+			allow(player2).to receive(:points).and_return(100)
 			expect(game.confirm).to eq("Mittens attacks Dave")
 		end
 	end
