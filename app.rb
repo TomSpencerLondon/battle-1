@@ -21,8 +21,8 @@ class Battle < Sinatra::Base
   end
 
   post '/attack' do
-    $game.attack($game.player2)
-    session[:confirm] = "#{$game.player1.name} attacks #{$game.player2.name}"
+    $game.attack($game.current_player)
+    session[:confirm] = $game.confirm
     redirect '/play'
   end
 

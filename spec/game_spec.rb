@@ -3,8 +3,8 @@ require './lib/game'
 describe Game do
 
 	subject(:game)		{described_class.new(player1, player2)}
-	let (:player1) 		{ double :player }
-	let (:player2)		{ double :player }
+	let (:player1) 		{ double :player, name: "Dave" }
+	let (:player2)		{ double :player, name: "Mittens" }
 
 	describe '#defaults' do
 		it "player 1 to be an player object" do
@@ -21,6 +21,18 @@ describe Game do
     		expect(player2).to receive(:receive_damage)
       	game.attack(player2)
     	end
+	end
+
+	describe '#switch_turns' do
+		it 'switches the turn' do
+			expect(game.switch_turns).to eq 1
+		end
+	end
+
+	describe '#confirm' do
+		it 'it displays a message to the players' do
+			expect(game.confirm).to eq("Mittens attacks Dave")
+		end
 	end
 
 end
