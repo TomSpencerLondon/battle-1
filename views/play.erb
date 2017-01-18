@@ -1,7 +1,7 @@
 <%=$player1.name %> vs. <%= $player2.name %>
 <br>
-<%= @player2_name %> has <%= @player2_points %> hit points
-<br>
+<%= $player1.name %> has <%= $player1.points %> hit points <br>
+<%= $player2.name %> has <%= $player2.points %> hit points <br>
 <% if @confirm %>
   <%= @confirm %>
 <% end %>

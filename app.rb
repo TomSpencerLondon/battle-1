@@ -17,12 +17,11 @@ class Battle < Sinatra::Base
 
   get '/play' do
   	@confirm = session[:confirm]
-    @player1_points = 0
-    @player2_points = 0
   	erb(:play)
   end
 
   post '/attack' do
+    $player1.attack($player2)
     session[:confirm] = "#{$player1.name} attacks #{$player2.name}"
     redirect '/play'
   end

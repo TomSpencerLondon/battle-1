@@ -5,6 +5,6 @@
 feature "View player 2's hit points" do
   scenario "displays hit points" do
     sign_in_and_play
-    expect(page).to have_content 'Mittens has 0 hit points'
+    expect(page).to have_content 'Mittens has 100 hit points'
   end
 end
