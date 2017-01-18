@@ -1,0 +1,511 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"greet",
+				"greet"
+			],
+			[
+				"ch",
+				"check_order"
+			],
+			[
+				"fly",
+				"flying_plane"
+			],
+			[
+				"defa",
+				"default_aiport"
+			],
+			[
+				"desc",
+				"described_class"
+			],
+			[
+				"journey",
+				"journey_log"
+			],
+			[
+				"journ",
+				"journey_log"
+			],
+			[
+				"jour",
+				"journey_log"
+			],
+			[
+				"joun",
+				"Journey"
+			],
+			[
+				"req",
+				"require_relative"
+			],
+			[
+				"di",
+				"distance"
+			],
+			[
+				"re",
+				"respond_to"
+			],
+			[
+				"to",
+				"touch_out"
+			],
+			[
+				"en",
+				"entry_station"
+			],
+			[
+				"exit",
+				"exit_station"
+			],
+			[
+				"exi",
+				"exit_station"
+			],
+			[
+				"t",
+				"top_up"
+			],
+			[
+				"raise",
+				"raise_error"
+			],
+			[
+				"tou",
+				"touch_in"
+			],
+			[
+				"rai",
+				"raise_error"
+			],
+			[
+				"Car",
+				"CARD_LIMIT"
+			],
+			[
+				"Dockin",
+				"DockingStation"
+			],
+			[
+				"Dock",
+				"DockingStation"
+			],
+			[
+				"dock",
+				"dock_bike"
+			],
+			[
+				"air",
+				"airborne"
+			],
+			[
+				"n",
+				"new"
+			],
+			[
+				"la",
+				"land_plane"
+			],
+			[
+				"gene",
+				"generate_num"
+			],
+			[
+				"it",
+				"it"
+			],
+			[
+				"sub",
+				"subject"
+			],
+			[
+				"bike",
+				"bike"
+			],
+			[
+				"relea",
+				"release_bike"
+			],
+			[
+				"D",
+				"D"
+			],
+			[
+				"C",
+				"C"
+			],
+			[
+				"prin",
+				"print_confirmation"
+			],
+			[
+				"pr",
+				"print_confirmation"
+			],
+			[
+				"squ",
+				"squareThenDouble"
+			],
+			[
+				"do",
+				"doubleThenSquare"
+			],
+			[
+				"dou",
+				"doubleIt"
+			],
+			[
+				"al",
+				"alwaysFalse"
+			],
+			[
+				"last",
+				"lastNumber"
+			],
+			[
+				"some",
+				"someProc"
+			],
+			[
+				"ma",
+				"maybeDo"
+			],
+			[
+				"S",
+				"sayGoodbye"
+			],
+			[
+				"co",
+				"countTheOranges"
+			],
+			[
+				"stuff",
+				"stuffInIntestine"
+			],
+			[
+				"stu",
+				"stuffInIntestine"
+			],
+			[
+				"stuffi",
+				"stuffInBelly"
+			],
+			[
+				"stuffIn",
+				"stuffInIntestine"
+			],
+			[
+				"showing",
+				"showing"
+			],
+			[
+				"color",
+				"colorArray"
+			],
+			[
+				"num",
+				"num"
+			],
+			[
+				"p",
+				"push"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/sam/projects/newbattle/spec/features/switch_turns_spec.rb",
+		"/home/sam/projects/newbattle/lib/game.rb",
+		"/home/sam/projects/newbattle/app.rb",
+		"/home/sam/projects/newbattle/spec/game_spec.rb",
+		"/home/sam/projects/newbattle/spec/player_spec.rb",
+		"/home/sam/projects/newbattle/lib/player.rb",
+		"/home/sam/projects/newbattle/views/play.erb",
+		"/home/sam/projects/newbattle/spec/features/enter_names_spec.rb",
+		"/home/sam/projects/newbattle/spec/features/attack_player2_spec.rb",
+		"/home/sam/projects/newbattle/spec/spec_helper.rb",
+		"/home/sam/projects/newbattle/spec/features/web_helpers.rb",
+		"/home/sam/projects/newbattle/spec/features/view_hit_points_spec.rb",
+		"/home/sam/projects/newbattle/views/index.erb",
+		"/home/sam/projects/airport_challenge/spec/airport_spec.rb",
+		"/home/sam/projects/battle/spec/features/enter_names_spec.rb",
+		"/home/sam/projects/debugging_1/spec/diary_spec.rb",
+		"/home/sam/projects/debugging_1/lib/diary.rb",
+		"/home/sam/projects/debugging_1/spec/diary_printer_spec.rb",
+		"/home/sam/projects/debugging_1/lib/diary_printer.rb",
+		"/home/sam/projects/debugging_1/spec/appointment_spec.rb",
+		"/home/sam/projects/debugging_1/lib/appointment.rb",
+		"/home/sam/projects/codebreaker/features/codebreaker_starts_game.feature",
+		"/home/sam/projects/codebreaker/features/codebreaker_submits_guess.feature",
+		"/home/sam/projects/codebreaker/features/step_definitions/codebreaker_steps.rb",
+		"/home/sam/projects/codebreaker/features/support/env.rb",
+		"/home/sam/projects/codebreaker/lib/codebreaker.rb",
+		"/home/sam/projects/codebreaker/lib/codebreaker/game.rb",
+		"/home/sam/projects/battle/spec/spec_helper.rb",
+		"/home/sam/projects/battle/.rspec",
+		"/home/sam/projects/battle/app.rb",
+		"/home/sam/projects/battle/Gemfile",
+		"/home/sam/projects/battles/Gemfile",
+		"/home/sam/projects/newbattle/Gemfile",
+		"/home/sam/projects/battle/config.ru",
+		"/home/sam/projects/battle/Gemfile.lock",
+		"/home/sam/projects/capybara_practice/Gemfile",
+		"/home/sam/projects/sinatra_practice/app.rb",
+		"/home/sam/projects/sinatra_practice/views/index.erb",
+		"/home/sam/projects/sinatra_practice/views/catform.erb",
+		"/home/sam/projects/sinatra_practice/Gemfile",
+		"/home/sam/projects/ruby-fundamentals/possible-solutions-dont-look-until-the-workshop-is-over/exercise_4.rb",
+		"/home/sam/projects/ruby-fundamentals/lib/exercise_4.rb",
+		"/home/sam/projects/ruby-fundamentals/possible-solutions-dont-look-until-the-workshop-is-over/exercise_3.rb",
+		"/home/sam/projects/ruby-fundamentals/lib/exercise_3.rb",
+		"/home/sam/projects/ruby-fundamentals/possible-solutions-dont-look-until-the-workshop-is-over/exercise_2.rb",
+		"/home/sam/projects/ruby-fundamentals/lib/exercise_2.rb",
+		"/home/sam/projects/ruby-fundamentals/possible-solutions-dont-look-until-the-workshop-is-over/exercise_1.rb",
+		"/home/sam/projects/ruby-fundamentals/lib/exercise_1.rb",
+		"/home/sam/projects/ruby-fundamentals/spec/exercise_2_spec.rb",
+		"/home/sam/projects/ruby-fundamentals/spec/exercise_4_spec.rb",
+		"/home/sam/projects/ruby-fundamentals/spec/exercise_3_spec.rb",
+		"/home/sam/projects/ruby-fundamentals/spec/exercise_1_spec.rb",
+		"/home/sam/projects/takeaway-challenge/lib/takeaway.rb",
+		"/home/sam/projects/takeaway-challenge/lib/details.rb",
+		"/home/sam/projects/takeaway-challenge/lib/sms.rb",
+		"/home/sam/projects/takeaway-challenge/lib/order.rb",
+		"/home/sam/projects/takeaway-challenge/lib/menu.rb",
+		"/home/sam/projects/code_review/takeaway-challenge/lib/menu.rb",
+		"/home/sam/projects/code_review/takeaway-challenge/spec/items_selection_spec.rb",
+		"/home/sam/projects/takeaway-challenge/Gemfile",
+		"/home/sam/projects/code_review/takeaway-challenge/lib/order.rb",
+		"/home/sam/projects/code_review/takeaway-challenge/lib/menuhash.rb",
+		"/home/sam/projects/code_review/takeaway-challenge/Gemfile",
+		"/home/sam/projects/code_review/takeaway-challenge/lib/items_selection.rb",
+		"/home/sam/projects/code_review/takeaway-challenge/lib/customer.rb",
+		"/home/sam/projects/rspec_book/chap01/hello/features/greeter_says_hello.feature",
+		"/home/sam/projects/rspec_book/chap01/hello/features/step_definitions/greeter_steps.rb",
+		"/home/sam/projects/rspec_book/chap01/greeter_spec.rb",
+		"/home/sam/projects/takeaway-challenge/spec/takeaway_spec.rb",
+		"/home/sam/projects/takeaway-challenge/spec/sms_spec.rb",
+		"/home/sam/projects/takeaway-challenge/spec/order_spec.rb",
+		"/home/sam/projects/takeaway-challenge/spec/menu_spec.rb",
+		"/home/sam/projects/takeaway-challenge/spec/spec_helper.rb",
+		"/home/sam/projects/oystercard/spec/oystercard_spec.rb",
+		"/home/sam/projects/oystercard/spec/journey_spec.rb",
+		"/home/sam/projects/oystercard/spec/journey_log_spec.rb",
+		"/home/sam/projects/practice/spec/menu_spec.rb",
+		"/home/sam/projects/takeaway-challenge/spec/menulist_spec.rb",
+		"/home/sam/projects/takeaway-challenge/lib/menulist.rb",
+		"/home/sam/projects/practice/lib/menu.rb",
+		"/home/sam/projects/practice/lib/takeaway.rb",
+		"/home/sam/projects/takeaway-challenge/spec/features/user_stories_spec.rb",
+		"/home/sam/projects/practice/spec/takeaway_spec.rb",
+		"/home/sam/projects/practice/.rspec",
+		"/home/sam/projects/practice/Gemfile",
+		"/home/sam/projects/airport/spec/features/user_stories_spec.rb",
+		"/home/sam/projects/airport/spec/weather_spec.rb",
+		"/home/sam/projects/airport/lib/weather.rb",
+		"/home/sam/projects/airport/spec/airport_spec.rb",
+		"/home/sam/projects/airport/spec/plane_spec.rb",
+		"/home/sam/projects/airport/lib/airport.rb",
+		"/home/sam/projects/airport/lib/plane.rb",
+		"/home/sam/projects/takeaway-challenge/spec/features/takeaway_spec.rb",
+		"/home/sam/projects/oystercard/lib/journey_log.rb",
+		"/home/sam/projects/oystercard/lib/journey.rb",
+		"/home/sam/projects/oystercard/lib/station.rb",
+		"/home/sam/projects/oystercard/lib/oystercard.rb",
+		"/home/sam/projects/oystercard/spec/station_spec.rb",
+		"/home/sam/projects/oystercard/spec/spec_helper.rb",
+		"/home/sam/projects/oystercard/Gemfile",
+		"/home/sam/projects/oystercard/.gitignore",
+		"/home/sam/projects/oystercard/.rspec",
+		"/home/sam/projects/airport/.rspec",
+		"/home/sam/projects/airport/Gemfile",
+		"/home/sam/projects/oystercard/spec/journeylog_spec.rb",
+		"/home/sam/projects/rspec_practice/spec/run_spec.rb",
+		"/home/sam/projects/rspec_practice/lib/string_calculator.rb",
+		"/home/sam/projects/rspec_practice/spec/string_calculator_spec.rb",
+		"/home/sam/projects/rspec_practice/Gemfile",
+		"/home/sam/projects/oystercard/lib/journeylog.rb",
+		"/home/sam/projects/oyster_main/lib/station.rb",
+		"/home/sam/projects/oyster_main/lib/journey.rb",
+		"/home/sam/projects/oyster_main/lib/oystercard.rb",
+		"/home/sam/projects/oyster_main/spec/journey_spec.rb",
+		"/home/sam/projects/gittest/spec/journey_spec.rb",
+		"/home/sam/projects/gittest/lib/journey.rb",
+		"/home/sam/projects/gittest/spec/station_spec.rb",
+		"/home/sam/projects/gittest/lib/station.rb",
+		"/home/sam/projects/gittest/spec/oystercard_spec.rb",
+		"/home/sam/projects/gittest/lib/oystercard.rb",
+		"/home/sam/projects/oop_3/terrible/spec/todo_list_spec.rb",
+		"/home/sam/projects/oop_3/terrible/lib/todo_list.rb",
+		"/home/sam/projects/oop_3/great/spec/todo_list_spec.rb",
+		"/home/sam/projects/oop_3/great/lib/todo_list.rb",
+		"/home/sam/projects/oop_3/great/spec/todo_spec.rb",
+		"/home/sam/projects/oop_3/great/lib/todo.rb",
+		"/home/sam/projects/oop_3/solution-do-not-look-until-the-end/lib/todo.rb",
+		"/home/sam/projects/airport_challenge/spec/plane_spec.rb"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"details",
+			"attr_reader",
+			"items",
+			"do",
+			"end",
+			"\t\n",
+			"arr"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "attack_player2_spec.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,10 +1,11 @@
 class Game
 
-	attr_reader :current_player, :players
+	attr_reader :current_player, :players, :game_over
 
 	def initialize(player1, player2)
 		@players = [player1, player2]
 		@current_player = 0
+		@game_over = false
 	end
 
 	def player1
@@ -26,7 +27,8 @@ class Game
 
 	def confirm
 		if @players[@current_player].points <= 0
-			"#{@players[@current_player].name} has lost the game!"
+			@game_over = true
+			"#{@players[@current_player].name} has lost the game!"			
 		else
 			"#{@players[@current_player-1].name} attacks #{@players[@current_player].name}"
 		end

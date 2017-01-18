@@ -23,7 +23,12 @@ class Battle < Sinatra::Base
   post '/attack' do
     $game.attack($game.current_player)
     session[:confirm] = $game.confirm
-    redirect '/play'
+    $game.game_over ? redirect('/game-over') : redirect('/play')    
+  end
+
+  get '/game-over' do
+    @confirm = session[:confirm]
+    erb(:game_over)
   end
 
   run! if app_file == $0
