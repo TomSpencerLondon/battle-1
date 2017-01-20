@@ -1,7 +1,7 @@
 # Battle
 ### [Makers Academy] (http://www.makersacademy.com) - Week 3 Pair Programming Project
 
-[Project Setup] (#Setup) | [Running Battle] (#Run) | [User Story](#Story)
+[Project Setup] (#Setup) | [Running Battle] (#Run) | [User Story](#Story) | [Screen Shots] (#Shots)
 
 ## <a name="Outline">Outline</a>
 
@@ -130,3 +130,8 @@ As a Player,
 So I can enjoy my game of Battle,
 I want a sexy user interface
 ```
+
+## <a name="Shots">Screen Shots</a>
+
+Character Selection Screen
+(https://raw.githubusercontent.com/adrianeyre/battle/master/images/ScreenShot1.png)
