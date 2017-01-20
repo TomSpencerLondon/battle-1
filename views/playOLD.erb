@@ -1,0 +1,13 @@
+<%=$game.player1.name %> vs. <%= $game.player2.name %>
+<br>
+<%= $game.player1.name %> has <%= $game.player1.points %> hit points <br>
+<%= $game.player2.name %> has <%= $game.player2.points %> hit points <br>
+<% if @confirm %>
+  <%= @confirm %>
+<% end %>
+Player 1 image =  <%= $player1_char %><br>
+Player 2 image =  <%= $player2_char %><br>
+
+<form action='/attack' method="post">
+   <input type="submit" value="Attack">
+</form>
