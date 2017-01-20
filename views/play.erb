@@ -13,8 +13,12 @@ body,td,th {
 	font-weight: bold;
 	color: #FFF;
 }
-body {
-	background-image: url(http://vignette3.wikia.nocookie.net/wartune/images/e/eb/Amazon_Battle_Background.jpeg/revision/latest?cb=20140611222318);
+html {
+  background: url(https://raw.githubusercontent.com/adrianeyre/battle/master/images/Background.jpeg) no-repeat center center fixed;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
 }
 .PlayerTitle {
 	font-size: 40px;
@@ -63,14 +67,14 @@ WhiteText {
         <% if @game.player1.points != 100 %>
         <table width="100%" border="2" cellspacing="0" cellpadding="0">
           <tr>
-            <td width="<%= @game.player1.points %>%" bgcolor="#00FFFF">&nbsp;</td>
+            <td width="<%= @game.player1.points %>%" bgcolor="#0000FF">&nbsp;</td>
             <td width="<%= 100-@game.player1.points %>%">&nbsp;</td>
           </tr>
         </table>
         <% else %>
         <table width="100%" border="2" cellspacing="0" cellpadding="0">
           <tr>
-            <td width="100%" bgcolor="#FF00FF">&nbsp;</td>
+            <td width="100%" bgcolor="#0000FF">&nbsp;</td>
             </tr>
         </table>
         <% end %>
