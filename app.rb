@@ -35,6 +35,12 @@ class Battle < Sinatra::Base
     @game.game_over ? redirect('/game-over') : redirect('/play')
   end
 
+  post '/sleep' do
+    @game = Game.instance
+    session[:confirm] = @game.snooze(@game.current_player)
+    redirect('/play')
+  end
+
   get '/game-over' do
     @confirm = session[:confirm]
     erb(:game_over)

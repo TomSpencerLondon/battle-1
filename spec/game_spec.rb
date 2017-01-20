@@ -18,13 +18,21 @@ describe Game do
 
 	describe '#attack' do
     it 'damages the player' do
-			expect(player2).to receive(:receive_damage)
-			game.attack(player2)
+			allow(player2).to receive(:receive_damage)
+			allow(player2).to receive(:points).and_return(100)
+			expect(game.attack(player2)).to eq "Dave attacks Mittens"
 		end
+
 		it 'can poison a player' do
-			allow(player2).to receive(:affliction).and_return("Poisoned!")
-			expect(player2.affliction).to eq "Poisoned!"
-			game.attack(player2, 'poison')
+			allow(player2).to receive(:receive_damage)
+			allow(player2).to receive(:points).and_return(100)
+			expect(game.attack(player2,'poison')).to eq "Dave poisons Mittens"
+		end
+	end
+
+	describe '#snooze' do
+		it 'allows player 1 to snooze player 2' do
+			expect(game.snooze(player2)).to eq "Dave snoozes Mittens"
 		end
 	end
 

@@ -1,6 +1,6 @@
 class Game
 
-	attr_reader :current_player, :players, :game_over
+	attr_reader :current_player, :players, :game_over, :sleep
 
 	ATTACKS = %w(Attack Poisons Paralyzes Snooze)
 
@@ -16,6 +16,7 @@ class Game
 		@players = [player1, player2]
 		@current_player = 0
 		@game_over = false
+		@sleep = 0
 	end
 
 	def player1
@@ -32,8 +33,23 @@ class Game
 		confirm(type)
 	end
 
+	def snooze(player)
+		switch_turns
+		@sleep = sleep_amount
+		@players[@current_player].sleep = true
+		confirm("snooze")
+	end
+
+	def sleep
+		@players[@current_player].sleep
+	end
+
 	def switch_turns
-		@current_player = current_player == 0 ? 1 : 0
+		if @sleep > 0
+			@sleep -= 1
+		else
+			@current_player = current_player == 0 ? 1 : 0
+		end
 	end
 
 	def confirm(type='Attack')
@@ -45,7 +61,13 @@ class Game
 		end
 	end
 
+	private
+
 	def hit_amount(type)
 		type == "Poison" ? Kernel.rand(4..6) : Kernel.rand(0..10)
+	end
+
+	def sleep_amount
+		Kernel.rand(1..3)
 	end
 end

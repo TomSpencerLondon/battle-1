@@ -115,7 +115,7 @@ body {
               <input type="submit" class="ButtonText" value="Poison" />
             </form></td>
             <td height="80" align="center" valign="middle"><form id="sleepform" name="sleepform" method="post" action="/sleep">
-              <input type="submit" class="ButtonText" value="Sleep" />
+              <input type="submit" class="ButtonText" value="Sleep" <% if @game.sleep == true %> disabled="disabled" <% end %> />
             </form></td>
           </tr>
         </table></td>
