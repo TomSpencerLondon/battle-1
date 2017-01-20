@@ -11,20 +11,23 @@ class Battle < Sinatra::Base
   end
 
   post '/names' do
-    $game = Game.new(Player.new(params[:player1_name],params[:player_1_char]),Player.new(params[:player2_name],params[:player_2_char]))
+    player1 = Player.new(params[:player1_name], params[:player_1_char])
+    player2 = Player.new(params[:player2_name], params[:player_2_char])
+    @game = Game.create(player1, player2)
     redirect '/play'
   end
 
   get '/play' do
+    @game = Game.instance
   	@confirm = session[:confirm]
-    @game = $game
   	erb(:play)
   end
 
   post '/attack' do
-    $game.attack($game.current_player)
-    session[:confirm] = $game.confirm
-    $game.game_over ? redirect('/game-over') : redirect('/play')
+    @game = Game.instance
+    @game.attack(@game.current_player)
+    session[:confirm] = @game.confirm
+    @game.game_over ? redirect('/game-over') : redirect('/play')
   end
 
   get '/game-over' do

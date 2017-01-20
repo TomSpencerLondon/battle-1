@@ -2,6 +2,14 @@ class Game
 
 	attr_reader :current_player, :players, :game_over
 
+	def self.create(player1, player2)
+  	@game = Game.new(player1, player2)
+	end
+
+	def self.instance
+  	@game
+	end
+
 	def initialize(player1, player2)
 		@players = [player1, player2]
 		@current_player = 0
@@ -35,6 +43,6 @@ class Game
 	end
 
 	def hit_amount
-		Kernel.rand(10)
+		Kernel.rand(0..10)
 	end
 end
