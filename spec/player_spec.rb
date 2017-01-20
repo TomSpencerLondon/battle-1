@@ -17,6 +17,12 @@ describe Player do
 		end
 	end
 
+	describe '#affliction' do
+		it 'applies the affliction to the character' do
+			expect(mittens.affliction).to eq 'Poisoned!'
+		end
+	end
+
 	# describe '#attack' do
  #    it 'damages the player' do
 	# 		expect(mittens).to receive(:receive_damage)

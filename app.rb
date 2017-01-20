@@ -25,8 +25,13 @@ class Battle < Sinatra::Base
 
   post '/attack' do
     @game = Game.instance
-    @game.attack(@game.current_player)
-    session[:confirm] = @game.confirm
+    session[:confirm] = @game.attack(@game.current_player)
+    @game.game_over ? redirect('/game-over') : redirect('/play')
+  end
+
+  post '/poison' do
+    @game = Game.instance
+    session[:confirm] = @game.attack(@game.current_player, "Poison")
     @game.game_over ? redirect('/game-over') : redirect('/play')
   end
 

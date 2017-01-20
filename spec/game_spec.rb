@@ -21,6 +21,11 @@ describe Game do
 			expect(player2).to receive(:receive_damage)
 			game.attack(player2)
 		end
+		it 'can poison a player' do
+			allow(player2).to receive(:affliction).and_return("Poisoned!")
+			expect(player2.affliction).to eq "Poisoned!"
+			game.attack(player2, 'poison')
+		end
 	end
 
 	describe '#switch_turns' do
