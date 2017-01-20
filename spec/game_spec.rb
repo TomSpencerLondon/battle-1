@@ -30,12 +30,6 @@ describe Game do
 		end
 	end
 
-	describe '#snooze' do
-		it 'allows player 1 to snooze player 2' do
-			expect(game.snooze(player2)).to eq "Dave snoozes Mittens"
-		end
-	end
-
 	describe '#switch_turns' do
 		it 'switches the turn' do
 			expect(game.switch_turns).to eq 1
