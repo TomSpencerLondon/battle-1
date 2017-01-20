@@ -135,3 +135,9 @@ I want a sexy user interface
 
 ### Character Selection Screen
 [![ScreenShot1](https://raw.githubusercontent.com/adrianeyre/battle/master/images/ScreenShot1.png)](https://raw.githubusercontent.com/adrianeyre/battle/master/images/ScreenShot1.png "Screen Shot 1")
+
+### Main Game Screen
+[![ScreenShot2](https://raw.githubusercontent.com/adrianeyre/battle/master/images/ScreenShot2.png)](https://raw.githubusercontent.com/adrianeyre/battle/master/images/ScreenShot2.png "Screen Shot 2")
+
+### Game-Over Screen
+[![ScreenShot3](https://raw.githubusercontent.com/adrianeyre/battle/master/images/ScreenShot3.png)](https://raw.githubusercontent.com/adrianeyre/battle/master/images/ScreenShot3.png "Screen Shot 3")
