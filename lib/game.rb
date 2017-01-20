@@ -28,13 +28,13 @@ class Game
 	def confirm
 		if @players[@current_player].points <= 0
 			@game_over = true
-			"#{@players[@current_player].name} has lost the game!"			
+			"#{@players[@current_player].name} has lost the game!"
 		else
 			"#{@players[@current_player-1].name} attacks #{@players[@current_player].name}"
 		end
 	end
 
 	def hit_amount
-		Kernel.rand(1..50)
+		Kernel.rand(10)
 	end
 end

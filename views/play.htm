@@ -49,17 +49,37 @@ WhiteText {
     <td width="50">&nbsp;</td>
     <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td width="213"><img src="<%= $player1_char %>" alt="avatar 1" height="250" width="170" /></td>
+        <td width="213" align="center"><img src="<%= @game.player1.char %>" alt="avatar 1" height="250" width="170" /></td>
         <td width="45">&nbsp;</td>
-        <td width="810" align="right" valign="top" class="MainTitle"><span class="PlayerTitle"><%=$game.player1.name %> vs. <%= $game.player2.name %></span></td>
+        <td width="810" align="right" valign="top" class="MainTitle"><span class="PlayerTitle"><%=@game.player1.name %> vs. <%= @game.player2.name %></span></td>
       </tr>
       <tr>
-        <td>&nbsp;</td>
+        <td height="5">&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
       </tr>
       <tr>
-        <td class="HitPoints"><%= $game.player1.name %> has <%= $game.player1.points %> hit points</td>
+        <td class="HitPoints">
+        <% if @game.player1.points != 100 %>
+        <table width="100%" border="2" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="<%= @game.player1.points %>%" bgcolor="#00FFFF">&nbsp;</td>
+            <td width="<%= 100-@game.player1.points %>%">&nbsp;</td>
+          </tr>
+        </table>
+        <% else %>
+        <table width="100%" border="2" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="100%" bgcolor="#FF00FF">&nbsp;</td>
+            </tr>
+        </table>
+        <% end %>
+        </td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" class="HitPoints"><%= @game.player1.name %> has <%= @game.player1.points %> hit points</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
       </tr>
@@ -76,7 +96,7 @@ WhiteText {
       <tr>
         <td width="825" class="PlayerTitle"><%= @confirm %></td>
         <td width="42">&nbsp;</td>
-        <td width="201" align="right" valign="top" class="MainTitle"><img src="<%= $player2_char %>" alt="avatar 1" height="250" width="170" /></td>
+        <td width="201" align="center" valign="top" class="MainTitle"><img src="<%= @game.player2.char %>" alt="avatar 1" height="250" width="170" /></td>
       </tr>
       <tr>
         <td>&nbsp;</td>
@@ -86,7 +106,27 @@ WhiteText {
       <tr>
         <td class="HitPoints">&nbsp;</td>
         <td>&nbsp;</td>
-        <td align="right"><span class="HitPoints"><%= $game.player2.name %> has <%= $game.player2.points %> hit points</span></td>
+        <td align="right">
+        <% if @game.player2.points != 100 %>
+        <table width="100%" border="2" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="<%= @game.player2.points %>%" bgcolor="#FF0000">&nbsp;</td>
+            <td width="<%= 100-@game.player2.points %>%">&nbsp;</td>
+          </tr>
+        </table>
+        <% else %>
+        <table width="100%" border="2" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="100%" bgcolor="#FF0000">&nbsp;</td>
+            </tr>
+        </table>
+        <% end %>
+        </td>
+      </tr>
+      <tr>
+        <td class="HitPoints">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td align="center"><span class="HitPoints"><%= @game.player2.name %> has <%= @game.player2.points %> hit points</span></td>
       </tr>
     </table></td>
     <td width="50">&nbsp;</td>
