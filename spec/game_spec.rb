@@ -3,8 +3,8 @@ require './lib/game'
 describe Game do
 
 	subject(:game)		{described_class.new(player1, player2)}
-	let (:player1) 		{ double :player, name: "Dave" }
-	let (:player2)		{ double :player, name: "Mittens" }
+	let (:player1) 		{ double :player, name: "Dave", chr: ""}
+	let (:player2)		{ double :player, name: "Mittens", chr: "" }
 
 	describe '#defaults' do
 		it "player 1 to be an player object" do
