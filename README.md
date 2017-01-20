@@ -133,5 +133,5 @@ I want a sexy user interface
 
 ## <a name="Shots">Screen Shots</a>
 
-Character Selection Screen
-(https://raw.githubusercontent.com/adrianeyre/battle/master/images/ScreenShot1.png)
+### Character Selection Screen
+[![ScreenShot1](https://raw.githubusercontent.com/adrianeyre/battle/master/images/ScreenShot1.png)](https://raw.githubusercontent.com/adrianeyre/battle/master/images/ScreenShot1.png "Screen Shot 1")
