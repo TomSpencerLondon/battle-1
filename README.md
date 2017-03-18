@@ -131,7 +131,7 @@ So I can enjoy my game of Battle,
 I want a sexy user interface
 ```
 ## <a name="Live">Play Live on Heroku</a>
-[![heroku-48](https://raw.githubusercontent.com/adrianeyre/codewars/master/Ruby/Authored/heroku.png)](https://adrianeyre-battle.herokuapp.com) [Battle](https://adrianeyre-battle.herokuapp.com)
+[![heroku-48](https://raw.githubusercontent.com/adrianeyre/codewars/master/Ruby/Authored/heroku.png)](https://adrianeyre-battle.herokuapp.com) [Use on Heroku](https://adrianeyre-battle.herokuapp.com)
 
 ## <a name="Shots">Screen Shots</a>
 
