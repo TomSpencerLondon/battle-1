@@ -1,7 +1,7 @@
 # Battle
-### [Makers Academy] (http://www.makersacademy.com) - Week 3 Pair Programming Project
+### [Makers Academy](http://www.makersacademy.com) - Week 3 Pair Programming Project
 
-[Project Setup] (#Setup) | [Running Battle] (#Run) | [User Story](#Story) | [Play Live] (#Live) | [Screen Shots] (#Shots)
+[Project Setup](#Setup) | [Running Battle](#Run) | [User Story](#Story) | [Play Live](#Live) | [Screen Shots](#Shots)
 
 ## <a name="Outline">Outline</a>
 
@@ -131,7 +131,7 @@ So I can enjoy my game of Battle,
 I want a sexy user interface
 ```
 ## <a name="Live">Play Live on Heroku</a>
-[Battle] (https://adrianeyre-battle.herokuapp.com)
+[Battle](https://adrianeyre-battle.herokuapp.com)
 
 ## <a name="Shots">Screen Shots</a>
 
